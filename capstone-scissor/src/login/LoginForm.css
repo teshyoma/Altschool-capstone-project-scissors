@@ -1,0 +1,128 @@
+/* LoginForm.css */
+p {
+  width: 320px;
+  height: 24px;
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5c6f7f;
+}
+
+h3 {
+  width: 330px;
+  height: 16px;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #4991ff;
+}
+
+span a {
+  width: 49px;
+  height: 20px;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #005ae2;
+  animation-timing-function: ease-out;
+  animation-duration: 100ms;
+}
+
+.login-form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.input-field {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.input-field input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #005ae2;
+}
+
+.input-field .icon {
+  position: absolute;
+  top: 50%;
+  left: 300px;
+  transform: translateY(-50%);
+  color: #4991ff;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; /* 
+  Adjust as needed */
+  gap: 16px;
+}
+/* Google Button */
+.google-login-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #005ae2;
+  /* Google red color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.google-login-button:hover {
+  background-color: #c13524; /* Darker shade of Google red */
+}
+
+.google-logo {
+  width: 20px; /* Adjust size as needed */
+  margin-right: 10px; /* Add spacing 
+  between logo and text */
+}
+
+/* LoginForm.css */
+.apple-login-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #005ae2; /* Apple's branding color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.apple-login-button:hover {
+  background-color: darkgray; /* Darker shade */
+}
+
+.apple-logo {
+  width: 20px; /* Adjust size as needed */
+  margin-right: 10px; /* Add spacing between logo and text */
+}
+
+.apple-login-button img {
+  border: none;
+  outline: none;
+}

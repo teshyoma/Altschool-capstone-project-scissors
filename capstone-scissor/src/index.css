@@ -1,0 +1,74 @@
+/* App.css */
+
+/* Navigation */
+nav {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+
+  padding: 1px 200px 1px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  color: #4991ff;
+}
+
+nav ul li a {
+  color: #4991ff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #052b64;
+}
+
+.sticky {
+  z-index: 999999;
+  box-shadow: 0 5px 15px rgba(220, 228, 235, 0.2);
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.logo-btn {
+  margin-left: auto;
+}
+
+.feature-tag {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.feature-tag img {
+  display: block;
+  width: 100%;
+}
+
+.btn {
+  background: #0065fe;
+  color: #ffffff;
+}
+/* Content */
+.content-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+/* Footer */
+/*footer {
+  margin-top: 20px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}*/
