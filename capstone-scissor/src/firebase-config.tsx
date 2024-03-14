@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB6kgh8megAxrTEUxZ2e3bfRCxSni2oB-c",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "scissors-authentication.firebaseapp.com",
   projectId: "scissors-authentication",
   storageBucket: "scissors-authentication.appspot.com",
